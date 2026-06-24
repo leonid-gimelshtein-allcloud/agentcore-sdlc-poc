@@ -58,7 +58,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.SDLC_PIPELINE_ROLE_ARN }}
-          aws-region: us-west-2
+          aws-region: us-west-1
 
       - name: Start SDLC pipeline
         env:
