@@ -1,0 +1,12 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "A minimal Node.js Express health API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
